@@ -1,9 +1,9 @@
 :root{
-    --cor-fundo: #505582;
-    --cor-principal: #d1d4f1;
-    --cor-secundaria: #1a1c2d;
-    --cor-destaque: #018665;
-    --cor-texto: #ead6f0;
+    --cor-fundo: #3a9ba7;
+    --cor-principal: #3e8f77;
+    --cor-secundaria: #0B0D20;
+    --cor-destaque: #375250;
+    --cor-texto: #37a4ae;
 }
 body{
     background-color: var(--cor-fundo);
@@ -13,13 +13,13 @@ body{
     align-items: center;
     min-height: 100vh;
 }
-caixa-principal{
+.caixa-principal{
     background-color: var(--cor-principal);
     width: 90%;
+    max-width: 600px;
     text-align: center;
-    padding: 20px
-
+    padding: 20px;
 }
 h1{
-    color: vars(--cor-destaque)
+    color: var(--cor-destaque);
 }
